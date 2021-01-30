@@ -11,10 +11,18 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nulla commodo, consectetur ante et, elementum nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean efficitur aliquet fringilla. Cras vitae turpis nec justo fringilla dapibus. Ut est diam, semper id magna non, rhoncus vehicula arcu. Donec pulvinar et ipsum nec pulvinar. Mauris mattis velit ligula, in commodo mauris euismod at.</p>
     <form id="survey-form">
-      <input style="display:block" id="name" type="text" required>
-      <input style="display:block" id="email" type="email" required>
-      <input style="display:block" id="number" type="number" min="1" max="99" required>
-    
+      <label id="name-label"> Name </label>
+      <input style="display:block" id="name" type="text" required placeholder="Input your Name">
+      <label id="email-label"> Email </label>
+      <input style="display:block" id="email" type="email" required placeholder="Input your Email">
+      <label id="number-label"> Number </label>
+      <input style="display:block" id="number" type="number" min="1" max="99" required placeholder="Input a Number">
+      
+      <select id="dropdown" name="select">
+        <option value="value1">Value 1</option>
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+      </select>
     
     </form>
     
